@@ -4,4 +4,10 @@ body {
 
 #head {
     background-color: lightblue;
+    position: fixed;
+    top: 0px;
+}
+
+#main {
+    margin-top: 300px;
 }

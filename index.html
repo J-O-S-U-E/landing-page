@@ -6,10 +6,10 @@
         <title>Landing Page</title>
     </head>
     <body>
-        <h1>Landing Page</h1>
         <header id="head">
+            <h1>Landing Page</h1>
             <div class="logo">
-                <img id="header-img" src="" alt="img description">
+                <img id="header-img" src="/images/glass-of-water.jfif" alt="img description">
             </div>
 
             <nav id="nav-bar">
@@ -18,5 +18,17 @@
                 <a href="#bot">BOT</a>
             </nav>
         </header>
+
+        <div id="main">
+            <video width="320" height="240" controls>
+                <source src="/videos/glass-of-water.mp4" type="video/mp4">
+            </video>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label for="email" id="email">EMAIL</label>
+                <input id="email" type="text" placeholder="email" required>
+                <button type="submit" id="submit" value="submit">Submit</button>
+            </form>
+        </div>
+
     </body>
 </html>
